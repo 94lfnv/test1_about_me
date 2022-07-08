@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It's ME!🐾</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="//font.elice.io/EliceDigitalBaeum.css" rel="stylesheet" />
+  </head>
+  <body>
+    <input
+      type="button"
+      value="turnOff"
+      class="button"
+      onclick="
+  if (this.value === 'turnOff') {
+    document.querySelector('html').style.backgroundColor = '#403650';
+    document.querySelector('body').style.backgroundColor = '#403650';
+    document.querySelector('body').style.color='#D7CDF5'
+    document.querySelector('p').style.color='#D7CDF5';
+    this.value = 'turnOn'
+  } else {
+    document.querySelector('html').style.backgroundColor = '#D7CDF5';
+    document.querySelector('body').style.backgroundColor = '#D7CDF5';
+    document.querySelector('body').style.color='#403650'
+    document.querySelector('p').style.color='#403650';
+    this.value = 'turnOff'
+  }
+"
+    />
+    <main>
+      <h1>🐾ABOUT ME🐾</h1>
+      <div class="bigBox">
+        <div class="aboutMe">
+          <div class="attie" id="attie1">
+            <img class="aboutMe_img" src="attie1.jpg" alt="my_cat_picture" />
+            <h3>🐾자기 소개🐾</h3>
+            <p class="aboutMe_text">
+              🔹<strong>이름 : </strong>이다솜<br />
+              🔹<strong>관심 직무 : </strong>웹 프론트엔드 개발자<br />
+              🔹<strong>관심 기술 : </strong>JavaScript, TypeScript, React<br />
+              🔹<strong>목표 : </strong>엘리스 AI 트랙 무사히 완주, <br />팀
+              프로젝트 잘 끝내기, 개발자로 취업하기<br />
+              🔹<strong>좋아하는 것 : </strong>우리 집 막내 아띠🐱, <br />앤
+              카슨의 소설 <빨강의 자서전>, <br />미란다 줄라이의 영화
+              <카조니어>, 보라색🟣<br />
+            </p>
+          </div>
+          <div class="attie" id="attie2">
+            <img class="aboutMe_img" src="attie3.jpg" alt="my_cat_picture" />
+            <h3>🐾말말말🐾</h3>
+            <p class="aboutMe_text">
+              🔹<strong>AI 트랙에서 가장 기대되는 점 :</strong><br />
+              교육이 시작된 지 불과 2주 남짓인데 코딩 왕초보라<br />
+              커리큘럼을 아슬아슬하게 따라가고 있습니다. <br />앞으로 6개월간
+              이렇게 달린다면 마무리 즈음엔<br />
+              얼마나 성장해 있을까요? 상상만 해도 신이 납니다.<br />
+              🔹<strong>동료 레이서에게 하고 싶은 말 :</strong> <br />여러분을
+              동료 레이서로 만나게 되어 기쁩니다. <br />앞으로 다양한 산을 넘게
+              될 텐데 지금처럼 서로 도우며 <br />함께 힘내 봐요. 잘
+              부탁드립니다!
+              <br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
