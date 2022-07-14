@@ -9,26 +9,7 @@
     <link href="//font.elice.io/EliceDigitalBaeum.css" rel="stylesheet" />
   </head>
   <body>
-    <input
-      type="button"
-      value="turnOff"
-      class="button"
-      onclick="
-  if (this.value === 'turnOff') {
-    document.querySelector('html').style.backgroundColor = '#403650';
-    document.querySelector('body').style.backgroundColor = '#403650';
-    document.querySelector('body').style.color='#D7CDF5'
-    document.querySelector('p').style.color='#D7CDF5';
-    this.value = 'turnOn'
-  } else {
-    document.querySelector('html').style.backgroundColor = '#D7CDF5';
-    document.querySelector('body').style.backgroundColor = '#D7CDF5';
-    document.querySelector('body').style.color='#403650'
-    document.querySelector('p').style.color='#403650';
-    this.value = 'turnOff'
-  }
-"
-    />
+    <input type="button" value="turnOff" class="button" />
     <main>
       <h1>🐾ABOUT ME🐾</h1>
       <div class="bigBox">
@@ -67,4 +48,5 @@
       </div>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
